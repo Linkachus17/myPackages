@@ -1,1 +1,1 @@
-test write
+sudo pacman -Syu
