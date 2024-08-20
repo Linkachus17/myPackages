@@ -1,1 +1,1 @@
-sudo pacman -Syu
+something I write this
