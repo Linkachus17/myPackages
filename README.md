@@ -14,11 +14,15 @@ chsh -s /full/path/to/shell
 using EDITOR=myeditor visudo, add:
 "Defaults timestamp_timeout=-1"
 ## DRM Kernel mode settings
+```
 /etc/mkinitcpio.conf
 MODULES=(…nvidia nvidia_modeset nvidia_uvm nvidia_drm…)
-
+```
+```
 /etc/modprobe.d/nvidia.conf
 options nvidia_drm modeset=1 fbdev=1
+```
+
 ## Install Yay
 ```
 pacman -S --needed git base-devel
