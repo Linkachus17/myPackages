@@ -1,5 +1,14 @@
 # MyPackages
 This repo meant to store all of my required packages during Arch installation. DOES NOT INCLUDE KERNEL MODULE PACKAGES
+
+# Installing Packages
+## Using curl
+```
+pacman -Sy $(curl -s https://raw.githubusercontent.com/Linkachus17/myPackages/refs/heads/main/pacman)
+```
+```
+yay -S $(curl -s https://raw.githubusercontent.com/Linkachus17/myPackages/refs/heads/main/yay)
+```
 # Pre-requisite
 ## NVIDIA driver
 Remove kms from HOOKS on /etc/mkinitcpio.conf
