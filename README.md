@@ -1,6 +1,6 @@
 # MyPackages
-This repo meant to store all of my own required packages during Arch installation. DOES NOT INCLUDE KERNEL MODULE PACKAGES
-
+This repo meant to store all of my own required packages during Arch installation. DOES NOT INCLUDE KERNEL MODULE PACKAGES<br>
+[barebone](https://github.com/Linkachus17/myPackages/blob/main/barebone) is list of packages that is required to run KDE Plasma
 
 # Pre-requisite
 ## Install Yay
@@ -51,6 +51,6 @@ chsh -s /full/path/to/shell
 ``EDITOR=youreditor visudo``
 ```
 ...
-"Defaults timestamp_timeout=-1"
+Defaults timestamp_timeout=-1
 ...
 ```
