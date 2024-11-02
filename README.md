@@ -54,3 +54,11 @@ chsh -s /full/path/to/shell
 Defaults timestamp_timeout=-1
 ...
 ```
+
+## Replace KDE Notification with dunst
+```
+/usr/share/dbus-1/services/org.kde.plasma.Notifications.service
+[D-BUS Service]
+Name=org.freedesktop.Notifications
+Exec=/usr/bin/dunst
+```
