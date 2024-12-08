@@ -55,7 +55,7 @@ Defaults timestamp_timeout=-1
 ...
 ```
 
-## Replace KDE Notification with dunst
+## ~~Replace KDE Notification with dunst~~ Doesn't work!
 ```
 /usr/share/dbus-1/services/org.kde.plasma.Notifications.service
 [D-BUS Service]
